@@ -1,0 +1,15 @@
+{
+    "name": "miusarname/conversor_de_imagenes_a_pdf",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Miusarname\\ConversorDeImagenesAPdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "miusarname"
+        }
+    ],
+    "require": {}
+}
