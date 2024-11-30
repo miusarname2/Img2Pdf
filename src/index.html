@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertir Imagen a PDF</title>
+</head>
+<body>
+    <h1>Convertir archivo de imagen a PDF</h1>
+    <form action="convert.php" method="post" enctype="multipart/form-data">
+        <label for="imageFile">Selecciona una imagen (.jpg, .png):</label><br><br>
+        <input type="file" name="imageFile" id="imageFile" accept=".jpg,.png" required><br><br>
+        <button type="submit">Convertir a PDF</button>
+    </form>
+</body>
+</html>
